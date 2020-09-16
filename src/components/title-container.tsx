@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       width:'100vw',
-      height:'75vh',
+      height:'65vh',
       backgroundImage: `url(${Image})`,
       backgroundPosition: 'center', 
       backgroundSize: 'cover', 
