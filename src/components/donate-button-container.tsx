@@ -17,12 +17,12 @@ export default function DonateButtonContainer() {
   const classes = useStyles();
   return (
       <div className={classes.root}>
-        <DonateButton amount={200} label={'₹200'}color={'primary'}/>
-        <DonateButton amount={500} label={'₹500'}color={'primary'}/>
-        <DonateButton amount={1000} label={'₹1000'}color={'primary'}/>
-        <DonateButton amount={5000} label={'₹5000'}color={'primary'}/>
-        <DonateButton amount={10000} label={'₹10000'} color={'primary'}/>
-        <DonateButton label={'Other'} color={'secondary'}/>     
+        <DonateButton amount={200} color={'primary'}/>
+        <DonateButton amount={500} color={'primary'}/>
+        <DonateButton amount={1000} color={'primary'}/>
+        <DonateButton amount={5000} color={'primary'}/>
+        <DonateButton amount={10000} color={'primary'}/>
+        <DonateButton isOther={true} color={'secondary'}/>     
     </div>
   );
 }
